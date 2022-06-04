@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/group_home">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_home"
+                    android:title="@string/menu_home" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/group_board">
+            <menu>
+                <item
+                    android:id="@+id/nav_board"
+                    android:icon="@drawable/ic_board"
+                    android:title="@string/menu_board" />
+                <item
+                    android:id="@+id/nav_normal_mentoring"
+                    android:icon="@drawable/ic_normal_mentoring"
+                    android:title="@string/menu_normal_mentoring" />
+                <item
+                    android:id="@+id/nav_prof_mentoring"
+                    android:icon="@drawable/ic_prof_mentoring"
+                    android:title="@string/menu_prof_mentoring" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/group_mechanics">
+            <menu>
+                <item
+                    android:id="@+id/nav_see_all"
+                    android:icon="@drawable/ic_see_all"
+                    android:title="@string/menu_see_all" />
+                <item
+                    android:id="@+id/nav_solid"
+                    android:icon="@drawable/ic_solid"
+                    android:title="@string/menu_solid" />
+                <item
+                    android:id="@+id/nav_eng_math"
+                    android:icon="@drawable/ic_eng_math"
+                    android:title="@string/menu_eng_math" />
+                <item
+                    android:id="@+id/nav_material"
+                    android:icon="@drawable/ic_material"
+                    android:title="@string/menu_material" />
+                <item
+                    android:id="@+id/nav_dynamics"
+                    android:icon="@drawable/ic_dynamics"
+                    android:title="@string/menu_dynamics" />
+                <item
+                    android:id="@+id/nav_thermo"
+                    android:icon="@drawable/ic_thermo"
+                    android:title="@string/menu_thermo" />
+                <item
+                    android:id="@+id/nav_transfer"
+                    android:icon="@drawable/ic_transfer"
+                    android:title="@string/menu_transfer" />
+                <item
+                    android:id="@+id/nav_fluid"
+                    android:icon="@drawable/ic_fluid"
+                    android:title="@string/menu_fluid" />
+                <item
+                    android:id="@+id/nav_auto_control"
+                    android:icon="@drawable/ic_auto_control"
+                    android:title="@string/menu_auto_control" />
+                <item
+                    android:id="@+id/nav_material_behavior"
+                    android:icon="@drawable/ic_material_behavior"
+                    android:title="@string/menu_material_behavior" />
+                <item
+                    android:id="@+id/nav_statics"
+                    android:icon="@drawable/ic_statics"
+                    android:title="@string/menu_statics" />
+                <item
+                    android:id="@+id/nav_vibration"
+                    android:icon="@drawable/ic_vibration"
+                    android:title="@string/menu_vibration" />
+                <item
+                    android:id="@+id/nav_coding"
+                    android:icon="@drawable/ic_coding"
+                    android:title="@string/menu_coding" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/group_external">
+            <menu>
+                <item
+                    android:id="@+id/nav_youtube"
+                    android:icon="@drawable/ic_youtube"
+                    android:title="@string/menu_youtube" />
+                <item
+                    android:id="@+id/nav_webpage"
+                    android:icon="@drawable/ic_webpage"
+                    android:title="@string/menu_webpage" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

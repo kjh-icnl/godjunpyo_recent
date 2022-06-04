@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">godjunpyo_recent</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Group Names -->
+    <string name="group_home">소개</string>
+    <string name="group_board">게시판</string>
+    <string name="group_mechanics">역학 콘서트/전공</string>
+    <string name="group_external">외부 소스</string>
+
+    <!-- Fragment Names -->
+    <string name="menu_home">갓준표 소개</string>
+    <string name="menu_board">갓준표 게시판</string>
+    <string name="menu_normal_mentoring">일반 멘토링</string>
+    <string name="menu_prof_mentoring">교수님 멘토링</string>
+    <string name="menu_see_all">한번에 보기</string>
+    <string name="menu_solid">고체역학</string>
+    <string name="menu_eng_math">공업수학</string>
+    <string name="menu_material">공학재료학</string>
+    <string name="menu_dynamics">동역학</string>
+    <string name="menu_thermo">열역학</string>
+    <string name="menu_transfer">열전달</string>
+    <string name="menu_fluid">유체역학</string>
+    <string name="menu_auto_control">자동제어</string>
+    <string name="menu_material_behavior">재료거동학</string>
+    <string name="menu_statics">정역학</string>
+    <string name="menu_vibration">진동학</string>
+    <string name="menu_coding">코딩</string>
+    <string name="menu_youtube">유튜브</string>
+    <string name="menu_webpage">웹페이지</string>
+
+</resources>

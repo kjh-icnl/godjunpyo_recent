@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.godjunpyo_recent.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_board"
+        android:name="com.example.godjunpyo_recent.ui.board.BoardFragment"
+        android:label="@string/menu_board"
+        tools:layout="@layout/fragment_board" />
+    <fragment
+        android:id="@+id/nav_normal_mentoring"
+        android:name="com.example.godjunpyo_recent.ui.normal_mentoring.NormalMentoringFragment"
+        android:label="@string/menu_normal_mentoring"
+        tools:layout="@layout/fragment_normal_mentoring" />
+    <fragment
+        android:id="@+id/nav_prof_mentoring"
+        android:name="com.example.godjunpyo_recent.ui.prof_mentoring.ProfMentoringFragment"
+        android:label="@string/menu_prof_mentoring"
+        tools:layout="@layout/fragment_prof_mentoring" />
+    <fragment
+        android:id="@+id/nav_see_all"
+        android:name="com.example.godjunpyo_recent.ui.see_all.SeeAllFragment"
+        android:label="@string/menu_see_all"
+        tools:layout="@layout/fragment_see_all" />
+    <fragment
+        android:id="@+id/nav_solid"
+        android:name="com.example.godjunpyo_recent.ui.solid.SolidFragment"
+        android:label="@string/menu_solid"
+        tools:layout="@layout/fragment_solid" />
+    <fragment
+        android:id="@+id/nav_eng_math"
+        android:name="com.example.godjunpyo_recent.ui.eng_math.EngMathFragment"
+        android:label="@string/menu_eng_math"
+        tools:layout="@layout/fragment_eng_math" />
+    <fragment
+        android:id="@+id/nav_material"
+        android:name="com.example.godjunpyo_recent.ui.material.MaterialFragment"
+        android:label="@string/menu_material"
+        tools:layout="@layout/fragment_material" />
+    <fragment
+        android:id="@+id/nav_dynamics"
+        android:name="com.example.godjunpyo_recent.ui.dynamics.DynamicsFragment"
+        android:label="@string/menu_dynamics"
+        tools:layout="@layout/fragment_dynamics" />
+    <fragment
+        android:id="@+id/nav_thermo"
+        android:name="com.example.godjunpyo_recent.ui.thermo.ThermoFragment"
+        android:label="@string/menu_thermo"
+        tools:layout="@layout/fragment_thermo" />
+    <fragment
+        android:id="@+id/nav_transfer"
+        android:name="com.example.godjunpyo_recent.ui.transfer.TransferFragment"
+        android:label="@string/menu_transfer"
+        tools:layout="@layout/fragment_transfer" />
+    <fragment
+        android:id="@+id/nav_fluid"
+        android:name="com.example.godjunpyo_recent.ui.fluid.FluidFragment"
+        android:label="@string/menu_fluid"
+        tools:layout="@layout/fragment_fluid" />
+    <fragment
+        android:id="@+id/nav_auto_control"
+        android:name="com.example.godjunpyo_recent.ui.auto_control.AutoControlFragment"
+        android:label="@string/menu_auto_control"
+        tools:layout="@layout/fragment_auto_control" />
+    <fragment
+        android:id="@+id/nav_material_behavior"
+        android:name="com.example.godjunpyo_recent.ui.material_behavior.MaterialBehaviorFragment"
+        android:label="@string/menu_material_behavior"
+        tools:layout="@layout/fragment_material_behavior" />
+    <fragment
+        android:id="@+id/nav_statics"
+        android:name="com.example.godjunpyo_recent.ui.statics.StaticsFragment"
+        android:label="@string/menu_statics"
+        tools:layout="@layout/fragment_statics" />
+    <fragment
+        android:id="@+id/nav_vibration"
+        android:name="com.example.godjunpyo_recent.ui.vibration.VibrationFragment"
+        android:label="@string/menu_vibration"
+        tools:layout="@layout/fragment_vibration" />
+    <fragment
+        android:id="@+id/nav_coding"
+        android:name="com.example.godjunpyo_recent.ui.coding.CodingFragment"
+        android:label="@string/menu_coding"
+        tools:layout="@layout/fragment_coding" />
+
+
+</navigation>
