@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2453125" />
+        <entry key="app/src/main/res/drawable/ic_auto_control.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/drawable/ic_coding.xml" value="0.2515625" />
+        <entry key="app/src/main/res/drawable/ic_dynamics.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/drawable/ic_eng_math.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/drawable/ic_fluid.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/drawable/ic_godjunpyo_profile_background.xml" value="0.2453125" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.2453125" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2453125" />
+        <entry key="app/src/main/res/drawable/ic_material.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/drawable/ic_material_behavior.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.2453125" />
+        <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2453125" />
+        <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2453125" />
+        <entry key="app/src/main/res/drawable/ic_see_all.xml" value="0.25625" />
+        <entry key="app/src/main/res/drawable/ic_solid.xml" value="0.2515625" />
+        <entry key="app/src/main/res/drawable/ic_statics.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/drawable/ic_thermo.xml" value="0.2515625" />
+        <entry key="app/src/main/res/drawable/ic_transfer.xml" value="0.2515625" />
+        <entry key="app/src/main/res/drawable/ic_vibration.xml" value="0.2515625" />
+        <entry key="app/src/main/res/drawable/ic_webpage.xml" value="0.2515625" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4583333333333333" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.16296296296296298" />
+        <entry key="app/src/main/res/layout/fragment_auto_control.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_board.xml" value="0.24010416666666667" />
+        <entry key="app/src/main/res/layout/fragment_coding.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_dynamics.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_eng_math.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_fluid.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/layout/fragment_material.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_material_behavior.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_normal_mentoring.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/layout/fragment_prof_mentoring.xml" value="0.24010416666666667" />
+        <entry key="app/src/main/res/layout/fragment_see_all.xml" value="0.24010416666666667" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/layout/fragment_solid.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_statics.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_thermo.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_transfer.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_vibration.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/pop_up_activity.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_godjunpyo_profile.xml" value="0.2453125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_godjunpyo_profile_round.xml" value="0.25625" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2453125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2453125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

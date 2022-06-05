@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pop_up_usage"
+    android:layout_height="wrap_content"
+    android:layout_width="300dp"
+    android:orientation="vertical">
+
+    <!-- Title Bar -->
+    <LinearLayout
+        android:id="@+id/pop_up_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="@string/popup_title"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="280dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#C13B4A"/>
+
+    <!-- Content Body -->
+    <LinearLayout
+        android:id="@+id/pop_up_body_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:paddingStart="10dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="1."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingEnd="10dp"
+            android:gravity="fill"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:justificationMode="inter_word"
+            android:text="@string/popup_content_1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pop_up_body_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:paddingStart="10dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="2."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingEnd="10dp"
+            android:gravity="fill"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:justificationMode="inter_word"
+            android:text="@string/popup_content_2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pop_up_body_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:paddingStart="10dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="3."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingEnd="10dp"
+            android:gravity="fill"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:justificationMode="inter_word"
+            android:text="@string/popup_content_3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pop_up_body_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:paddingStart="10dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="4."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingEnd="10dp"
+            android:gravity="fill"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:justificationMode="inter_word"
+            android:text="@string/popup_content_4"/>
+    </LinearLayout>
+
+    <!-- PopUp Bottom -->
+    <LinearLayout
+        android:id="@+id/pop_up_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_godjunpyo_profile" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+<!--
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:layout_alignParentEnd="true">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+-->

@@ -34,4 +34,10 @@
     <string name="menu_youtube">유튜브</string>
     <string name="menu_webpage">웹페이지</string>
 
+    <!-- PopUp Usage -->
+    <string name="popup_title">사용 방법</string>
+    <string name="popup_content_1">왼쪽 상단의 메뉴 버튼을 누르시면, 갓준표의 주요 기능들이 정리되어 있습니다.</string>
+    <string name="popup_content_2">기본적인 기능들은 갓준표 홈페이지와 연결되어 있습니다.</string>
+    <string name="popup_content_3">일반 멘토링 기능은 최근 1~2주 내의 멘토링 영상이 보이며 자동 업데이트됩니다.</string>
+    <string name="popup_content_4">외부 소스를 통해 유튜브앱과 브라우저를 통해 직접 갓준표를 열 수 있습니다.</string>
 </resources>

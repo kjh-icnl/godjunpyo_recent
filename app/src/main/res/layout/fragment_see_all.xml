@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.see_all.SeeAllFragment">
 
+    <!--
     <TextView
         android:id="@+id/text_see_all"
         android:layout_width="match_parent"
@@ -19,4 +20,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+       -->
+    <WebView
+        android:id="@+id/webview_see_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

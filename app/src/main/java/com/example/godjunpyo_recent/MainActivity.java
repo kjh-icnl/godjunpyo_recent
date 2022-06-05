@@ -40,10 +40,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.appBarMain.toolbar);
+/*
+        binding.appBarMain.toolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+*/
         binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "This function is not supported", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -131,5 +139,13 @@ public class MainActivity extends AppCompatActivity {
     private void openWebBrowser(String url){
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(intent);
+    }
+
+    public boolean clickToPopUp(MenuItem menuItem){
+        Log.d("POPUP", "clickToPopUp: Pass");
+        Intent intent = new Intent(this, PopUpActivity.class);
+        startActivity(intent);
+        //startActivityForResult(intent, 1);
+        return true;
     }
 }
