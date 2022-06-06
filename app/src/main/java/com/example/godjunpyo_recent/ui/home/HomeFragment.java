@@ -1,5 +1,6 @@
 package com.example.godjunpyo_recent.ui.home;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,6 +25,7 @@ public class HomeFragment extends Fragment {
     private WebView webView;
     private static int times = 0;
 
+    @SuppressLint("SetJavaScriptEnabled")
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =

@@ -40,14 +40,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.appBarMain.toolbar);
-/*
+
         binding.appBarMain.toolbar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Snackbar.make(v, "This function is not supported", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
         });
-*/
+
         binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -129,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setItemIconTintList(null);
     }
 
+    /** on YouTube **/
     private void openYouTube(String url){
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -136,6 +138,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /** on Browser **/
     private void openWebBrowser(String url){
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(intent);

@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.Window;
 import android.widget.LinearLayout;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class PopUpActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -19,11 +21,6 @@ public class PopUpActivity extends Activity {
 
         // Get Intent
         LinearLayout linearLayout = findViewById(R.id.pop_up_usage);
-        //LinearLayout layout_title = findViewById(R.id.pop_up_title);
-        //LinearLayout layout_body  = findViewById(R.id.pop_up_body);
-
         linearLayout.setBackground(new ColorDrawable(Color.WHITE));
-        //layout_title.setBackground(new ColorDrawable(Color.TRANSPARENT));
-        //layout_body.setBackground(new ColorDrawable(Color.TRANSPARENT));
     }
 }
