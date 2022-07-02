@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2453125" />
         <entry key="app/src/main/res/drawable/ic_auto_control.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/drawable/ic_board.xml" value="0.4046296296296296" />
         <entry key="app/src/main/res/drawable/ic_coding.xml" value="0.2515625" />
         <entry key="app/src/main/res/drawable/ic_dynamics.xml" value="0.33541666666666664" />
         <entry key="app/src/main/res/drawable/ic_eng_math.xml" value="0.33541666666666664" />
@@ -17,6 +18,8 @@
         <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.2453125" />
         <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2453125" />
         <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2453125" />
+        <entry key="app/src/main/res/drawable/ic_normal_mentoring.xml" value="0.4046296296296296" />
+        <entry key="app/src/main/res/drawable/ic_prof_mentoring.xml" value="0.4046296296296296" />
         <entry key="app/src/main/res/drawable/ic_see_all.xml" value="0.25625" />
         <entry key="app/src/main/res/drawable/ic_solid.xml" value="0.2515625" />
         <entry key="app/src/main/res/drawable/ic_statics.xml" value="0.33541666666666664" />
@@ -24,9 +27,10 @@
         <entry key="app/src/main/res/drawable/ic_transfer.xml" value="0.2515625" />
         <entry key="app/src/main/res/drawable/ic_vibration.xml" value="0.2515625" />
         <entry key="app/src/main/res/drawable/ic_webpage.xml" value="0.2515625" />
+        <entry key="app/src/main/res/drawable/ic_youtube.xml" value="0.4197916666666667" />
         <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.4583333333333333" />
-        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.16296296296296298" />
         <entry key="app/src/main/res/layout/fragment_auto_control.xml" value="0.31927083333333334" />
         <entry key="app/src/main/res/layout/fragment_board.xml" value="0.24010416666666667" />

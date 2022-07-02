@@ -2,9 +2,11 @@ package com.example.godjunpyo_recent.ui.home;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.ValueCallback;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.TextView;
@@ -55,6 +57,15 @@ public class HomeFragment extends Fragment {
             webView.loadUrl("https://www.youtube.com/channel/UCJnkVzabcISCdf7TXT66O2A/featured");
         } else {
             webView.loadUrl("https://godjunpyo.com/소개/");
+
+            // do this operation after the view is loaded
+            webView.setWebViewClient(new WebViewClient() {
+                public void onPageFinished(WebView view, String url) {
+                    view.evaluateJavascript("document.querySelector('#post-695 > div').scrollIntoView()", s -> {
+                        // do nothing
+                    });
+                }
+            });
         }
         times++;
 

@@ -49,6 +49,15 @@ public class EngMathFragment extends Fragment {
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://godjunpyo.com/공업수학/");
 
+        // do this operation after the view is loaded
+        webView.setWebViewClient(new WebViewClient() {
+            public void onPageFinished(WebView view, String url) {
+                view.evaluateJavascript("document.querySelector('#post-5911 > div').scrollIntoView()", s -> {
+                    // do nothing
+                });
+            }
+        });
+
         return root;
     }
 

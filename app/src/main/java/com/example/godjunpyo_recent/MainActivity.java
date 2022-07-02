@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-
+/** this section is a comment for the floating button which had been declared in layout/app_bar_main.xml **/
+/*
         binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+ */
         DrawerLayout drawer = binding.drawerLayout;
         navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each

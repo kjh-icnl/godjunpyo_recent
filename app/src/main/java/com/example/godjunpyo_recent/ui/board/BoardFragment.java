@@ -39,6 +39,15 @@ public class BoardFragment extends Fragment {
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://godjunpyo.com/갓준표-게시판/");
 
+        // do this operation after the view is loaded
+        webView.setWebViewClient(new WebViewClient() {
+            public void onPageFinished(WebView view, String url) {
+                view.evaluateJavascript("document.querySelector('#post-2354 > div').scrollIntoView()", s -> {
+                    // do nothing
+                });
+            }
+        });
+
 
         return root;
     }

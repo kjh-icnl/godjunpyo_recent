@@ -49,6 +49,15 @@ public class StaticsFragment extends Fragment {
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://godjunpyo.com/정역학/");
 
+        // do this operation after the view is loaded
+        webView.setWebViewClient(new WebViewClient() {
+            public void onPageFinished(WebView view, String url) {
+                view.evaluateJavascript("document.querySelector('#post-715 > div').scrollIntoView()", s -> {
+                    // do nothing
+                });
+            }
+        });
+
         return root;
     }
 

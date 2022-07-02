@@ -58,6 +58,8 @@ public class NormalMentoringFragment extends Fragment {
         });
  */
 
+        /** YouTube Data Test **/
+        // document.querySelectorAll('#contents > ytd-playlist-video-renderer > #content').forEach(element => { console.log(element.querySelector('a[href]'))})
 
         /** for Web Data **/
         ArrayList<String> stringArrayList = new ArrayList<>();

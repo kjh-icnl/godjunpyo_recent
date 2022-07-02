@@ -50,6 +50,15 @@ public class AutoControlFragment extends Fragment {
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://godjunpyo.com/자동제어/");
 
+        // do this operation after the view is loaded
+        webView.setWebViewClient(new WebViewClient() {
+            public void onPageFinished(WebView view, String url) {
+                view.evaluateJavascript("document.querySelector('#post-3947 > div').scrollIntoView()", s -> {
+                    // do nothing
+                });
+            }
+        });
+
         return root;
     }
 
